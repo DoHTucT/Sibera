@@ -73,15 +73,24 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: top;
+  box-sizing: border-box;
   width: 1216px;
   height: 192px;
   border-top: 1px solid #2E373B;
   padding-top: 20px;
 }
 
+.card:hover {
+  border-bottom: 1px solid #646A75;
+}
+
 .pic {
   height: 72px;
   width: 72px;
+}
+
+.card:hover .pic{
+  opacity: 0.6;
 }
 
 .service {
@@ -93,6 +102,12 @@ export default {
   color: #D5D9E1;
   width: 592px;
   margin-left: 300px;
+}
+
+.card:hover .service {
+  color: #1F51FF;
+  transform: translateX(-300px);
+  transition-duration: 0.5s;
 }
 
 .service-content {
@@ -108,16 +123,20 @@ export default {
   text-align: right;
   color: #646A75;
   align-items: bottom;
-  margin-top: 130px;
+  margin-top: 110px;
+}
+
+.card:hover .number{
+  color: #1F51FF;
 }
 
 .ellipse {
   position: absolute;
   width: 963px;
   height: 963px;
-  left: 44px;
-  top: 1273px;
-  background: #FF5F1F;
+  left: 794px;
+  top: 2799px;
+  background: #1F51FF;
   opacity: 0.12;
   filter: blur(150px);
   z-index: -1;
