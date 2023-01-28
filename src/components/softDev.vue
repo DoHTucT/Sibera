@@ -16,6 +16,11 @@
       <div class="service">
         <div class="service-content">3D веб-гейминг,<br/>GameDev</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">01</div>
     </div>
 
@@ -26,6 +31,11 @@
       <div class="service">
         <div class="service-content">Криптовалютные и<br/>NFT сервисы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">02</div>
     </div>
 
@@ -36,6 +46,11 @@
       <div class="service">
         <div class="service-content">Картографические<br/>сервисы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">03</div>
     </div>
 
@@ -46,6 +61,11 @@
       <div class="service">
         <div class="service-content">Коммуникационные<br/>сервисы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">04</div>
     </div>
 
@@ -56,6 +76,11 @@
       <div class="service">
         <div class="service-content">Корпоративные<br/>порталы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">05</div>
     </div>
 
@@ -66,6 +91,11 @@
       <div class="service">
         <div class="service-content">Веб-представительства</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">06</div>
     </div>
 
@@ -76,6 +106,11 @@
       <div class="service">
         <div class="service-content">Системы учета <br/>для садовых товариществ</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">07</div>
     </div>
 
@@ -86,6 +121,11 @@
       <div class="service">
         <div class="service-content">Торговые и <br/>складские системы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">08</div>
     </div>
 
@@ -107,7 +147,7 @@ export default {
 
 <style scoped>
 .h1 {
-  ont-family: 'Inter';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -124,6 +164,7 @@ export default {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
+  position: relative;
   align-items: top;
   width: 1216px;
   height: 192px;
@@ -131,7 +172,7 @@ export default {
   padding-top: 20px;
 }
 
-.card:hover{
+.card:hover {
   border-bottom: 1px solid #646A75;
 }
 
@@ -140,8 +181,9 @@ export default {
   width: 72px;
 }
 
-.card:hover .pic{
+.card:hover .pic {
   opacity: 0.6;
+  transition: 0.5s;
 }
 
 .service {
@@ -165,6 +207,47 @@ export default {
   justify-content: flex-start;
 }
 
+.service-info {
+  position: absolute;
+  width: 592px;
+  height: 72px;
+  left: 624px;
+  top: 46px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #D5D9E1;
+  opacity: 0;
+}
+
+.card:hover .service-info {
+  opacity: 1;
+  transition: 1s;
+}
+
+.order {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  left: 623px;
+  top: 150px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #FF5F1F;
+  opacity: 0;
+}
+
+.card:hover .order {
+  opacity: 1;
+  transition: 1s;
+}
+
 .number {
   font-family: 'Inter';
   font-style: normal;
@@ -177,7 +260,7 @@ export default {
   margin-top: 110px;
 }
 
-.card:hover .number{
+.card:hover .number {
   color: #FF5F1F;
 
 }

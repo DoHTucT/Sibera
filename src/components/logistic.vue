@@ -11,6 +11,11 @@
       <div class="service">
         <div class="service-content">Доставка всеми <br/>видами транспорта</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">01</div>
     </div>
 
@@ -21,6 +26,11 @@
       <div class="service">
         <div class="service-content">Рассчет оптимального маршрута <br/>для товарной группы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">02</div>
     </div>
 
@@ -31,6 +41,11 @@
       <div class="service">
         <div class="service-content">Дроп-шиппинг</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">03</div>
     </div>
 
@@ -41,6 +56,11 @@
       <div class="service">
         <div class="service-content">Коммуникационные<br/>сервисы</div>
       </div>
+      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
+        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
+        tenetur totam voluptate voluptatem.
+      </div>
+      <div class="order">Заказать</div>
       <div class="number">04</div>
     </div>
 
@@ -71,6 +91,7 @@ export default {
 
 .card {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: top;
   box-sizing: border-box;
@@ -91,6 +112,7 @@ export default {
 
 .card:hover .pic{
   opacity: 0.6;
+  transition: 0.5s;
 }
 
 .service {
@@ -112,6 +134,47 @@ export default {
 
 .service-content {
   justify-content: flex-start;
+}
+
+.service-info {
+  position: absolute;
+  width: 592px;
+  height: 72px;
+  left: 624px;
+  top: 46px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #D5D9E1;
+  opacity: 0;
+}
+
+.card:hover .service-info {
+  opacity: 1;
+  transition: 1s;
+}
+
+.order {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  left: 623px;
+  top: 150px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #1F51FF;
+  opacity: 0;
+}
+
+.card:hover .order {
+  opacity: 1;
+  transition: 1s;
 }
 
 .number {
