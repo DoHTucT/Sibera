@@ -3,12 +3,20 @@
     <img src="../../src/assets/sibera_logo_big_text.svg" alt="Sibera">
     <div class="logo-text">Вовлечённость и результат</div>
     <img class="arrow" src="../../src/assets/arrow_down.svg">
+<!--    <img class="background" src="../../src/assets/hexBack.svg">-->
+    <hexBackground class="background"/>
   </div>
 </template>
 
 <script>
+import hexBackground from "@/components/hexBackground";
+
 export default {
-  name: "logoScreen"
+  name: "logoScreen",
+
+  components: {
+    hexBackground
+  }
 }
 </script>
 
@@ -35,4 +43,16 @@ export default {
 .arrow {
   margin-top: 152px;
 }
+
+.background {
+  position: absolute;
+  top: 0;
+  /*z-index: -1;*/
+}
+
+/*hexBackground {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  z-index: -3;*/
+/*}*/
 </style>

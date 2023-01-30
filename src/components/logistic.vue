@@ -24,7 +24,7 @@
         <img class="pic" src="../assets/route.svg">
       </div>
       <div class="service">
-        <div class="service-content">Рассчет оптимального маршрута <br/>для товарной группы</div>
+        <div class="service-content">Рассчет оптимального <br/>маршрута для <br/>товарной группы</div>
       </div>
       <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
         eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
@@ -170,6 +170,7 @@ export default {
   letter-spacing: 0.03em;
   color: #1F51FF;
   opacity: 0;
+  display: none;
 }
 
 .card:hover .order {

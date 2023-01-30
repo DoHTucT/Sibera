@@ -104,7 +104,7 @@
         <img class="pic" src="../../src/assets/garden.svg">
       </div>
       <div class="service">
-        <div class="service-content">Системы учета <br/>для садовых товариществ</div>
+        <div class="service-content">Системы учета <br/>для садовых <br/>товариществ</div>
       </div>
       <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
         eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
@@ -241,6 +241,7 @@ export default {
   letter-spacing: 0.03em;
   color: #FF5F1F;
   opacity: 0;
+  display: none;
 }
 
 .card:hover .order {

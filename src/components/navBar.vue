@@ -4,8 +4,8 @@
       <img src="../../src/assets/sibera_logo_text.svg" alt="Sibera">
     </div>
     <div class="menu">
-      <a href="#service">Услуги</a>
-      <a href="#contacts" class="contacts">Контакты</a>
+      <a href="#service" id="service">Услуги</a>
+      <a href="#contacts" id="contacts">Контакты</a>
     </div>
   </div>
 </template>
@@ -24,9 +24,15 @@ export default {
   height: 72px;
   border-bottom: 1px solid #2E373B;
   padding: 0;
+  z-index: 3;
 }
 
 .logo {
+}
+
+a {
+  position: absolute;
+  z-index: 2;
 }
 
 a:link, a:visited {
@@ -38,15 +44,22 @@ a:link, a:visited {
   color: #646A75;
 }
 
-a:hover{
+a:hover {
   color: #FF5F1F;
 }
+
 a {
   text-decoration: none;
 }
 
-.contacts{
-  margin-left: 50px;
+#contacts {
+  right: 230px;
+  top: 24px;
+}
+
+#service {
+  right: 350px;
+  top: 24px;
 }
 
 </style>
