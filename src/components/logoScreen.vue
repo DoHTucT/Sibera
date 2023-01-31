@@ -3,7 +3,6 @@
     <img src="../../src/assets/sibera_logo_big_text.svg" alt="Sibera">
     <div class="logo-text">Вовлечённость и результат</div>
     <img class="arrow" src="../../src/assets/arrow_down.svg">
-<!--    <img class="background" src="../../src/assets/hexBack.svg">-->
 <!--    <hexBackground class="background"/>-->
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="background">
     <div class="h1" id="link-contacts">Контакты <img class="arrow" src="../assets/arrowGreen.svg">
     </div>
     <div class="contact">
@@ -23,7 +23,7 @@
         <div class="info">г. Томск, Некрасова 45</div>
       </div>
     </div>
-    <img class="background" src="../../src/assets/contact_map.webp">
+<!--    <img class="background" src="../../src/assets/contact_map.webp">-->
     <div class="footer">
       <div class="content">СИБЕРА 2023 © Все права защищены</div>
 
@@ -82,13 +82,14 @@ export default {
 }
 
 .background{
-  position: absolute;
-  width: 1920px;
-  height: 1008px;
-  left: -100px;
-  top: 4400px;
-  opacity: 0.7;
-  z-index: -1;
+  background-image: url(../../src/assets/contact_map_new.webp)
+  /*position: absolute;*/
+  /*width: 1920px;*/
+  /*height: 1008px;*/
+  /*left: -100px;*/
+  /*top: 4400px;*/
+  /*opacity: 0.7;*/
+  /*z-index: -1;*/
 }
 
 .footer {

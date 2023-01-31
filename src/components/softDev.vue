@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="h1" id="link-service">Разработка программного обеспечения
       <img class="arrow" src="../assets/arrowOrange.svg">
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="h1">Логистические услуги
       <img class="arrow" src="../assets/arrowBlue.svg">
     </div>
@@ -200,11 +200,12 @@ export default {
   position: absolute;
   width: 963px;
   height: 963px;
-  left: 794px;
+  right: 0;
   top: 2799px;
   background: #1F51FF;
   opacity: 0.12;
   filter: blur(150px);
   z-index: -1;
+  /*transform: translateX(200px);*/
 }
 </style>

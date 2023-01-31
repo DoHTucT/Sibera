@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <slot name="icon" class="pic"/>
     <slot name="service" class="service"/>
     <slot name="number" class="number"/>
