@@ -217,7 +217,7 @@ this.randomHex = this.hex[randomHex]
 <style scoped>
 .main {
   width: 1930px;
-  display: flex;
+  display: grid;
   --s: 100px; /* size  */
   --m: 1px; /* margin */
   --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
@@ -225,7 +225,6 @@ this.randomHex = this.hex[randomHex]
 
 .container {
   font-size: 0; /*disable white space between inline block element */
-  width: 1930px;
 }
 
 .hex {
@@ -252,9 +251,14 @@ this.randomHex = this.hex[randomHex]
 }
 
 .hex:hover {
-  background: rgba(255, 95, 31, 0.3);
+  animation-name: hex-hover;
   transition: 0.05s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
+@keyframes hex-hover {
+  to{background: rgba(255, 95, 31, 0.3);}
+}
 
 </style>
