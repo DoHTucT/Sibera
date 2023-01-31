@@ -216,7 +216,7 @@ this.randomHex = this.hex[randomHex]
 
 <style scoped>
 .main {
-  width: 1930px;
+  /*width: 1930px;*/
   display: grid;
   --s: 100px; /* size  */
   --m: 1px; /* margin */

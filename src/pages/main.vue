@@ -1,6 +1,5 @@
 <template>
   <div class="main">
-    <div class="left"></div>
   <div class="container">
     <navBar/>
     <logoScreen/>
@@ -8,7 +7,6 @@
     <logistic/>
     <contacts/>
   </div>
-    <div class="right"></div>
   </div>
 </template>
 
@@ -42,4 +40,5 @@ export default {
   margin-left: auto;
   margin-right: auto;
 }
+
 </style>

@@ -27,7 +27,7 @@ export default {
   margin-top: 20px;
 }
 .service{
-  ont-family: 'Inter';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
