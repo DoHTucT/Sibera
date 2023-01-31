@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="h1" id="contacts">Контакты <img class="arrow" src="../assets/arrowGreen.svg">
+    <div class="h1" id="link-contacts">Контакты <img class="arrow" src="../assets/arrowGreen.svg">
     </div>
     <div class="contact">
       <img src="../../src/assets/tel.svg">

@@ -4,8 +4,8 @@
       <img src="../../src/assets/sibera_logo_text.svg" alt="Sibera">
     </div>
     <div class="menu">
-      <a href="#service" id="service">Услуги</a>
-      <a href="#contacts" id="contacts">Контакты</a>
+      <a href="#link-service" id="service">Услуги</a>
+      <a href="#link-contacts" id="contacts">Контакты</a>
     </div>
   </div>
 </template>

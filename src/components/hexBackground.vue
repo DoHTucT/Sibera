@@ -225,6 +225,7 @@ this.randomHex = this.hex[randomHex]
 
 .container {
   font-size: 0; /*disable white space between inline block element */
+  width: 1930px;
 }
 
 .hex {

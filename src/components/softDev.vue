@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="h1" id="service">Разработка программного обеспечения
+    <div class="h1" id="link-service">Разработка программного обеспечения
       <img class="arrow" src="../assets/arrowOrange.svg">
     </div>
     <!--    <card>-->
