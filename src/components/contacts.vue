@@ -23,7 +23,6 @@
         <div class="info">г. Томск, Некрасова 45</div>
       </div>
     </div>
-<!--    <img class="background" src="../../src/assets/contact_map.webp">-->
     <div class="footer">
       <div class="content">СИБЕРА 2023 © Все права защищены</div>
 

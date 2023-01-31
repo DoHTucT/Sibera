@@ -253,8 +253,10 @@ this.randomHex = this.hex[randomHex]
 .hex:hover {
   animation-name: hex-hover;
   transition: 0.05s;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-direction: reverse;
 }
 
 @keyframes hex-hover {
