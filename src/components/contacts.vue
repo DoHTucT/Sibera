@@ -1,19 +1,19 @@
 <template>
   <div class="container">
-    <div class="h1" id="contacts">Контакты <img class="arrow" src="../../src/assets/↙green.svg">
+    <div class="h1" id="contacts">Контакты <img class="arrow" src="../assets/arrowGreen.svg">
     </div>
     <div class="contact">
       <img src="../../src/assets/tel.svg">
       <div class="wrapper">
         <div class="description">Телефон:</div>
-        <div class="info">+7 987 654 32 10</div>
+        <div class="info">+7 905 705 21 78</div>
       </div>
     </div>
     <div class="contact">
       <img src="../../src/assets/mail.svg">
       <div class="wrapper">
         <div class="description">Email</div>
-        <div class="info">офис@сибера.рус</div>
+        <div class="info">инфо@сибера.рус</div>
       </div>
     </div>
     <div class="contact">

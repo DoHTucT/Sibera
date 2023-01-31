@@ -1,186 +1,186 @@
 <template>
   <div class="main">
     <div class="container">
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
+      <div ref="hex" class="hex"></div>
 
     </div>
   </div>
@@ -190,8 +190,28 @@
 export default {
   name: "hexBackground",
 
+  data() {
+    return {
+      randomHex: null,
+      hex: null
+    }
+  },
 
+  methods: {
+    getHex() {
+      let hex = [this.$refs.hex];
+      console.log(hex)
+    },
+
+    randomizer() {
+let  randomHex = Math.floor(Math.random() * this.hex.length);
+this.randomHex = this.hex[randomHex]
+      console.log(randomHex)
+    }
+  }
 }
+
+
 </script>
 
 <style scoped>
@@ -214,22 +234,11 @@ export default {
   display: inline-block;
   font-size: initial;
   clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
-  background: rgba(255, 95, 31, 0.05);
+  background: rgba(255, 95, 31, 0.03);
   margin-bottom: calc(var(--m) - var(--s) * 0.2885);
   transition: 3.2s;
 }
 
-/*.hex:hover .hex:before {*/
-/*  content: '';*/
-/*  background: rgba(255, 95, 31, 1);*/
-/*  transition: 0.2s;*/
-/*}*/
-
-/*.hex:hover .hex:after {*/
-/*  content: '';*/
-/*  background: rgba(255, 95, 31, 1);*/
-/*  transition: 0.2s;*/
-/*}*/
 
 .container::before {
   content: "";
@@ -243,7 +252,7 @@ export default {
 
 .hex:hover {
   background: rgba(255, 95, 31, 0.3);
-  transition: 0.1s;
+  transition: 0.05s;
 }
 
 

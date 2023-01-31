@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="h1" id="service">Разработка программного обеспечения
-      <img class="arrow" src="../../src/assets/↙orange.svg">
+      <img class="arrow" src="../assets/arrowOrange.svg">
     </div>
     <!--    <card>-->
     <!--      <template v-slot:icon><img class="pic" src="../../src/assets/gaming.svg"></template>-->
@@ -195,6 +195,7 @@ export default {
   color: #D5D9E1;
   width: 592px;
   margin-left: 300px;
+  transition: 1s;
 }
 
 .card:hover .service {
@@ -220,11 +221,14 @@ export default {
   line-height: 150%;
   color: #D5D9E1;
   opacity: 0;
+
 }
 
 .card:hover .service-info {
   opacity: 1;
   transition: 1s;
+  transition-delay: 0.2s
+
 }
 
 .order {

@@ -1,10 +1,14 @@
 <template>
+  <div class="main">
+    <div class="left"></div>
   <div class="container">
     <navBar/>
     <logoScreen/>
     <softDev/>
     <logistic/>
     <contacts/>
+  </div>
+    <div class="right"></div>
   </div>
 </template>
 
@@ -29,6 +33,10 @@ export default {
 </script>
 
 <style scoped>
+/*.main{*/
+/*  display:grid;*/
+/*  grid-template-columns: 1fr 5fr 1fr;*/
+/*}*/
 .container {
   width: 1216px;
   margin-left: auto;

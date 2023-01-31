@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="h1">Логистические услуги
-      <img class="arrow" src="../../src/assets/↙blue.svg">
+      <img class="arrow" src="../assets/arrowBlue.svg">
     </div>
 
     <div class="card">
@@ -116,7 +116,7 @@ export default {
 }
 
 .service {
-  ont-family: 'Inter';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -124,6 +124,7 @@ export default {
   color: #D5D9E1;
   width: 592px;
   margin-left: 300px;
+  transition: 1s;
 }
 
 .card:hover .service {
@@ -154,6 +155,7 @@ export default {
 .card:hover .service-info {
   opacity: 1;
   transition: 1s;
+  transition-delay: 0.2s
 }
 
 .order {

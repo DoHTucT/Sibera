@@ -25,7 +25,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 114px;
+  margin-top: 80px;
 }
 
 .logo-text {
@@ -37,16 +37,16 @@ export default {
   letter-spacing: 10.5px;
   text-transform: uppercase;
   color: #9FA7B4;
-  margin-top: 37px;
+  margin-top: 30px;
 }
 
 .arrow {
-  margin-top: 152px;
+  margin-top: 100px;
 }
 
 .background {
   position: absolute;
-  top: 0;
+  top: -30px;
   /*z-index: -1;*/
 }
 
