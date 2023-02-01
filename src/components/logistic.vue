@@ -124,13 +124,13 @@ export default {
   color: #D5D9E1;
   width: 592px;
   margin-left: 300px;
-  transition: 1s;
+  transition: all 1s;
 }
 
 .card:hover .service {
   color: #1F51FF;
   transform: translateX(-300px);
-  transition-duration: 0.5s;
+  transition: all 0.5s;
 }
 
 .service-content {
@@ -150,11 +150,12 @@ export default {
   line-height: 150%;
   color: #D5D9E1;
   opacity: 0;
+  transition: all 0.7s;
 }
 
 .card:hover .service-info {
   opacity: 1;
-  transition: 1s;
+  transition: all 0.7s;
   transition-delay: 0.2s
 }
 

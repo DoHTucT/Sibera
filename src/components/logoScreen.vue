@@ -37,10 +37,12 @@ export default {
   text-transform: uppercase;
   color: #9FA7B4;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .arrow {
-  margin-top: 100px;
+  position: fixed;
+  bottom: 50px;
 }
 
 .background {

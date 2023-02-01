@@ -201,7 +201,7 @@ export default {
 .card:hover .service {
   color: #FF5F1F;
   transform: translateX(-300px);
-  transition-duration: 0.5s;
+  transition: all 0.5s;
 }
 
 .service-content {
@@ -213,7 +213,7 @@ export default {
   width: 592px;
   height: 72px;
   left: 624px;
-  top: 46px;
+  top: 130px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -221,13 +221,16 @@ export default {
   line-height: 150%;
   color: #D5D9E1;
   opacity: 0;
+  transition: all 0.7s;
+
 
 }
 
 .card:hover .service-info {
   opacity: 1;
-  transition: 1s;
-  transition-delay: 0.2s
+  transition: all 0.7s;
+  transition-delay: 0.2s;
+  transform: translateY(-86px);
 
 }
 
@@ -263,10 +266,14 @@ export default {
   color: #646A75;
   align-items: bottom;
   margin-top: 110px;
+  transition: 0.7s;
+
 }
 
 .card:hover .number {
   color: #FF5F1F;
+  transition: 0.7s;
+
 
 }
 
