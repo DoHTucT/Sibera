@@ -95,7 +95,7 @@ export default {
   justify-content: space-between;
   align-items: top;
   box-sizing: border-box;
-  width: 1216px;
+  width: 100%;
   height: 192px;
   border-top: 1px solid #2E373B;
   padding-top: 20px;

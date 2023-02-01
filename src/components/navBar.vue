@@ -30,9 +30,14 @@ export default {
 .logo {
 }
 
-a {
-  position: absolute;
+.menu{
+  position: relative;
   z-index: 2;
+}
+
+a {
+  z-index: 3;
+  text-decoration: none;
 }
 
 a:link, a:visited {
@@ -48,18 +53,11 @@ a:hover {
   color: #FF5F1F;
 }
 
-a {
-  text-decoration: none;
-}
-
 #contacts {
-  right: 230px;
-  top: 24px;
 }
 
 #service {
-  right: 350px;
-  top: 24px;
+  margin-right: 50px;
 }
 
 </style>

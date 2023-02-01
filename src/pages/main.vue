@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+    <div class="margin-left"></div>
   <div class="container">
     <navBar/>
     <logoScreen/>
@@ -7,6 +8,7 @@
     <logistic/>
     <contacts/>
   </div>
+    <div class="margin-right"></div>
   </div>
 </template>
 
@@ -31,14 +33,14 @@ export default {
 </script>
 
 <style scoped>
-/*.main{*/
-/*  display:grid;*/
-/*  grid-template-columns: 1fr 5fr 1fr;*/
-/*}*/
-.container {
-  width: 1216px;
-  margin-left: auto;
-  margin-right: auto;
+.main{
+  display:grid;
+  grid-template-columns: 1fr 8fr 1fr;
 }
+/*.container {*/
+/*  width: 1216px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*}*/
 
 </style>

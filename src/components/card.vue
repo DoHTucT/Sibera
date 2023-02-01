@@ -16,7 +16,7 @@ export default {
 .container {
   display: flex;
   justify-content: space-between;
-  width: 1216px;
+  width: 100%;
   height: 192px;
   border-top: 1px solid #2E373B;
 }

@@ -166,7 +166,7 @@ export default {
   box-sizing: border-box;
   position: relative;
   align-items: top;
-  width: 1216px;
+  width: 100%;
   height: 192px;
   border-top: 1px solid #2E373B;
   padding-top: 20px;
