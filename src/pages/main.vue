@@ -38,10 +38,11 @@ export default {
   grid-template-columns: 1fr 5fr 1fr;
 }
 
-/*.container {*/
+.container {
+  max-width: 1216px;
 /*  width: calc(500px + (1216 - 500) * ((100vw - 500px) / (1920 - 500)));*/
 /*  margin-right: auto;*/
 /*  margin-left: auto;*/
-/*}*/
+}
 
 </style>

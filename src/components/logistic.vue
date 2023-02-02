@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="h1">Логистические услуги
+    <div class="h1">Логистические <br/>услуги
       <img class="arrow" src="../assets/arrowBlue.svg">
     </div>
 
@@ -79,18 +79,20 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: calc(36px + (72 - 36) * ((100vw - 500px) / (1920 - 500)));
+  font-size: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
   line-height: 110%;
   text-transform: uppercase;
   color: #D5D9E1;
-  width: calc(350px + (700 - 350) * ((100vw - 500px) / (1920 - 500)));
-  height: calc(120px + (240 - 120) * ((100vw - 500px) / (1920 - 500)));
-  margin-bottom: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));;
+  width: calc(330px + (660 - 330) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(80px + (160 - 80) * ((100vw - 500px) / (1920 - 500)));
+  margin-top: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));
+
+  margin-bottom: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .arrow {
-  width: calc(32px + (64 - 32) * ((100vw - 500px) / (1920 - 500)));
-  height: calc(32px + (64 - 32) * ((100vw - 500px) / (1920 - 500)));
+  width: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .card {
@@ -162,7 +164,8 @@ export default {
 .card:hover .service-info {
   opacity: 1;
   transition: all 0.7s;
-  transition-delay: 0.2s
+  transition-delay: 0.2s;
+  transform: translateY(-86px);
 }
 
 .order {

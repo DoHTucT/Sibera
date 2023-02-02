@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .container {
-  height: calc(480px + (960 - 480) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(444px + (888 - 444) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .logo-frame {
@@ -31,7 +31,7 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));
-  margin-bottom: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));
+  /*margin-bottom: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));*/
 }
 
 .logo {

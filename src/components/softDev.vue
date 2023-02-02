@@ -8,11 +8,10 @@
         <img class="pic" src="../../src/assets/gaming.svg">
       </div>
       <div class="service">
-        <div class="service-content">3D веб-гейминг,<br/>GameDev</div>
+        <div class="service-content">3D web-игры <br/>и приложения</div>
       </div>
-      <div class="service-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem dolor enim
-        eveniet, facere minima molestiae molestias nisi nulla, pariatur quam quo recusandae repellendus rerum sint
-        tenetur totam voluptate voluptatem.
+      <div class="service-info">Разработка онлайн игр (online multiplayer), блокчейн NFT игры (blockchain), браузерные
+        игры (WebGL, HTML5). Гейм-дизайн, сценарии и реквизит квест-комнат, разработка маркетинговых игр.
       </div>
       <div class="order">Заказать</div>
       <div class="number">01</div>
@@ -144,7 +143,7 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: calc(36px + (72 - 36) * ((100vw - 500px) / (1920 - 500)));
+  font-size: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
   line-height: 110%;
   text-transform: uppercase;
   color: #D5D9E1;
@@ -153,9 +152,9 @@ export default {
   margin-bottom: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));;
 }
 
-.arrow{
-  width: calc(32px + (64 - 32) * ((100vw - 500px) / (1920 - 500)));
-  height: calc(32px + (64 - 32) * ((100vw - 500px) / (1920 - 500)));
+.arrow {
+  width: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .card {
@@ -198,7 +197,8 @@ export default {
 
 .card:hover .service {
   color: #FF5F1F;
-  transform: translateX(-300px);
+  transform: translateX(-250px);
+  /*transform: translateX(calc(-1*(150px - (300 - 150) * ((100vw - 500px) / (1920 - 500)))));*/
   transition: all 0.5s;
 }
 
