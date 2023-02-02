@@ -23,19 +23,20 @@ export default {
 
 <style scoped>
 .container {
-  height: 90vh;
+  height: calc(480px + (960 - 480) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .logo-frame {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: calc(75px + (150 - 75) * ((100vw - 500px) / (1920 - 500)));
+  margin-top: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));
+  margin-bottom: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .logo {
-  width: calc(430px + (860 - 150) * ((100vw - 500px) / (1920 - 500)));
-  height: calc(270px + (534 - 150) * ((100vw - 500px) / (1920 - 500)));
+  width: calc(430px + (860 - 430) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(270px + (534 - 270) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .logo-text {
@@ -43,7 +44,7 @@ export default {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: calc(12px + (24 - 8) * ((100vw - 500px) / (1920 - 500)));
+  font-size: calc(12px + (24 - 12) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   letter-spacing: calc(5px + (10.5 - 1) * ((100vw - 500px) / (1920 - 500)));
   text-transform: uppercase;

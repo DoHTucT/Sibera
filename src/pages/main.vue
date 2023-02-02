@@ -1,13 +1,13 @@
 <template>
   <div class="main">
     <div class="margin-left"></div>
-  <div class="container">
-    <navBar/>
-    <logoScreen/>
-    <softDev/>
-    <logistic/>
-    <contacts/>
-  </div>
+    <div class="container">
+      <navBar/>
+      <logoScreen/>
+      <softDev/>
+      <logistic/>
+      <contacts/>
+    </div>
     <div class="margin-right"></div>
   </div>
 </template>
@@ -33,13 +33,15 @@ export default {
 </script>
 
 <style scoped>
-.main{
-  display:grid;
+.main {
+  display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-
 }
+
 /*.container {*/
-/*  width: calc(400px + (100% - 400) * ((100vw - 500px) / (1920 - 500)));*/
+/*  width: calc(500px + (1216 - 500) * ((100vw - 500px) / (1920 - 500)));*/
+/*  margin-right: auto;*/
+/*  margin-left: auto;*/
 /*}*/
 
 </style>

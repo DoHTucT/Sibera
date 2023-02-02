@@ -76,29 +76,33 @@ export default {
 
 <style scoped>
 .h1 {
-  ont-family: 'Inter';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  font-size: calc(36px + (72 - 36) * ((100vw - 500px) / (1920 - 500)));
   line-height: 110%;
   text-transform: uppercase;
   color: #D5D9E1;
-  width: 640px;
-  height: 237px;
-  margin-top: 136px;
-  margin-bottom: 100px;
+  width: calc(350px + (700 - 350) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(120px + (240 - 120) * ((100vw - 500px) / (1920 - 500)));
+  margin-bottom: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));;
+}
+
+.arrow {
+  width: calc(32px + (64 - 32) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(32px + (64 - 32) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .card {
   display: flex;
-  position: relative;
   justify-content: space-between;
-  align-items: top;
   box-sizing: border-box;
+  position: relative;
+  align-items: top;
   width: 100%;
-  height: 192px;
+  height: calc(141px + (192 - 141) * ((100vw - 500px) / (1920 - 500)));;
   border-top: 1px solid #2E373B;
-  padding-top: 20px;
+  padding-top: calc(10px + (20 - 10) * ((100vw - 500px) / (1920 - 500)));;
 }
 
 .card:hover {
@@ -106,11 +110,11 @@ export default {
 }
 
 .pic {
-  height: 72px;
-  width: 72px;
+  height: calc(36px + (72 - 36) * ((100vw - 500px) / (1920 - 500)));
+  width: calc(36px + (72 - 36) * ((100vw - 500px) / (1920 - 500)));
 }
 
-.card:hover .pic{
+.card:hover .pic {
   opacity: 0.6;
   transition: 0.5s;
 }
@@ -119,12 +123,12 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: calc(18px + (36 - 18) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #D5D9E1;
   width: 592px;
-  margin-left: 300px;
-  transition: all 1s;
+  margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
+  transition: 1s;
 }
 
 .card:hover .service {
@@ -139,18 +143,20 @@ export default {
 
 .service-info {
   position: absolute;
-  width: 592px;
-  height: 72px;
-  left: 624px;
-  top: 46px;
+  width: calc(230px + (592 - 230) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(36px + (72 - 36) * ((100vw - 500px) / (1920 - 500)));
+  left: calc(312px + (624 - 312) * ((100vw - 500px) / (1920 - 500)));
+  top: 130px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: calc(8px + (16 - 8) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #D5D9E1;
   opacity: 0;
   transition: all 0.7s;
+
+
 }
 
 .card:hover .service-info {
@@ -185,15 +191,18 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 200;
-  font-size: 36px;
+  font-size: calc(18px + (36 - 18) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   text-align: right;
   color: #646A75;
   align-items: bottom;
-  margin-top: 110px;
+  margin-top: calc(90px + (110 - 90) * ((100vw - 500px) / (1920 - 500)));;
+  transition: 0.7s;
+
 }
 
-.card:hover .number{
+
+.card:hover .number {
   color: #1F51FF;
 }
 
