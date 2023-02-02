@@ -35,12 +35,11 @@ export default {
 <style scoped>
 .main{
   display:grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
+
 }
 /*.container {*/
-/*  width: 1216px;*/
-/*  margin-left: auto;*/
-/*  margin-right: auto;*/
+/*  width: calc(400px + (100% - 400) * ((100vw - 500px) / (1920 - 500)));*/
 /*}*/
 
 </style>

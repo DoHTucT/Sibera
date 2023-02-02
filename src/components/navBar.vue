@@ -22,6 +22,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   height: 72px;
+  width: calc(400px + (100% - 400) * ((100vw - 500px) / (1920 - 500)));
   border-bottom: 1px solid #2E373B;
   padding: 0;
   z-index: 3;
