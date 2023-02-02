@@ -34,8 +34,8 @@ export default {
 }
 
 .logo {
-  width: calc(150px + (860 - 150) * ((100vw - 500px) / (1920 - 500)));
-  height: calc(150px + (534 - 150) * ((100vw - 500px) / (1920 - 500)));
+  width: calc(430px + (860 - 150) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(270px + (534 - 150) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .logo-text {
@@ -43,9 +43,9 @@ export default {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: calc(8px + (24 - 8) * ((100vw - 500px) / (1920 - 500)));
+  font-size: calc(12px + (24 - 8) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
-  letter-spacing: calc(1px + (10.5 - 1) * ((100vw - 500px) / (1920 - 500)));
+  letter-spacing: calc(5px + (10.5 - 1) * ((100vw - 500px) / (1920 - 500)));
   text-transform: uppercase;
   color: #9FA7B4;
 }
