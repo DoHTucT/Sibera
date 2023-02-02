@@ -30,7 +30,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: calc(5px + (150 - 5) * ((100vw - 500px) / (1920 - 500)));
+  margin: calc(75px + (150 - 75) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .logo {
