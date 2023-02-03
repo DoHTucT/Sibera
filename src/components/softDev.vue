@@ -193,21 +193,17 @@ export default {
   width: calc(250px + (500 - 250) * ((100vw - 500px) / (1920 - 500)));
   /*margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));*/
   transition: 1s;
-  /*border: 1px solid white;*/
 }
+
 
 .card:hover .service {
   color: #FF5F1F;
-  /*position: absolute;*/
-  /*left: 70px;*/
-  transform: translateX(-250px);
-  /*transform: translateX(calc((-150px) - ((-300) - (-150)) * ((100vw - 500px) / (1920 - 500))));*/
+  transform: translateX(-50%);
   transition-duration: 1s;
 }
 
 .service-content {
   justify-content: flex-start;
-
 }
 
 .service-info {
