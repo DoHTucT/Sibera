@@ -190,20 +190,24 @@ export default {
   font-size: calc(18px + (36 - 18) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #D5D9E1;
-  width: 592px;
-  margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
+  width: calc(250px + (500 - 250) * ((100vw - 500px) / (1920 - 500)));
+  /*margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));*/
   transition: 1s;
+  /*border: 1px solid white;*/
 }
 
 .card:hover .service {
   color: #FF5F1F;
+  /*position: absolute;*/
+  /*left: 70px;*/
   transform: translateX(-250px);
-  /*transform: translateX(calc(-1*(150px - (300 - 150) * ((100vw - 500px) / (1920 - 500)))));*/
-  transition: all 0.5s;
+  /*transform: translateX(calc((-150px) - ((-300) - (-150)) * ((100vw - 500px) / (1920 - 500))));*/
+  transition-duration: 1s;
 }
 
 .service-content {
   justify-content: flex-start;
+
 }
 
 .service-info {

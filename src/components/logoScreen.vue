@@ -64,6 +64,8 @@ export default {
   position: absolute;
   top: -30px;
   left: 0;
+  height: calc(550px + (1100 - 550) * ((100vw - 500px) / (1920 - 500)));
+  overflow: hidden;
 }
 
 </style>

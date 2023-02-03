@@ -33,16 +33,16 @@ export default {
 </script>
 
 <style scoped>
-.main {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-}
+/*.main {*/
+/*  display: grid;*/
+/*  grid-template-columns: 1fr 5fr 1fr;*/
+/*}*/
 
 .container {
   max-width: 1216px;
-/*  width: calc(500px + (1216 - 500) * ((100vw - 500px) / (1920 - 500)));*/
-/*  margin-right: auto;*/
-/*  margin-left: auto;*/
+  width: calc(608px + (1216 - 608) * ((100vw - 500px) / (1920 - 500)));
+  margin-right: auto;
+  margin-left: auto;
 }
 
 </style>

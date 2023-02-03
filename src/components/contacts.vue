@@ -41,12 +41,17 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  font-size: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   text-transform: uppercase;
   color: #D5D9E1;
   margin-top: 114px;
   margin-bottom: 92px;
+}
+
+.arrow {
+  width: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .contact{
@@ -66,7 +71,7 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: calc(8px + (16 - 8) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #646A75;
 }
@@ -75,7 +80,7 @@ export default {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: calc(18px + (36 - 18) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #D5D9E1;
 }
