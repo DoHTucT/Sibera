@@ -128,15 +128,15 @@ export default {
   font-size: calc(18px + (36 - 18) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #D5D9E1;
-  width: 592px;
-  margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
+  width: calc(250px + (500 - 250) * ((100vw - 500px) / (1920 - 500)));
+  /*margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));*/
   transition: 1s;
 }
 
 .card:hover .service {
   color: #1F51FF;
-  transform: translateX(-300px);
-  transition: all 0.5s;
+  transform: translateX(-50%);
+  transition: all 1s;
 }
 
 .service-content {
