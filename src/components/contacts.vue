@@ -57,13 +57,13 @@ export default {
 .contact{
   display: flex;
   justify-content: space-between;
-  width: 650px;
+  width: calc(325px + (650 - 325) * ((100vw - 500px) / (1920 - 500)));
   margin-bottom: 60px;
 
 }
 
 .wrapper{
-  width: 420px;
+  width: calc(210px + (420 - 210) * ((100vw - 500px) / (1920 - 500)));
   height: 80px;
 }
 
