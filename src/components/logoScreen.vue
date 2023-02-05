@@ -5,7 +5,6 @@
       <div class="logo-text">Вовлечённость и результат</div>
     </div>
   </div>
-  <img class="arrow" src="../../src/assets/arrow_down.svg">
   <hexBackground class="background"/>
 </template>
 
@@ -49,15 +48,6 @@ export default {
   letter-spacing: calc(5px + (10.5 - 1) * ((100vw - 500px) / (1920 - 500)));
   text-transform: uppercase;
   color: #9FA7B4;
-}
-
-.arrow {
-  position: fixed;
-  bottom: 50px;
-  left: 0;
-  right: 0;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .background {
