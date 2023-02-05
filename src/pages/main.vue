@@ -69,10 +69,13 @@ export default {
   right: 0;
   margin-right: auto;
   margin-left: auto;
+  transition: 1s;
 }
 
 .isHidden {
   opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
 }
 
 </style>
