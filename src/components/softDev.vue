@@ -127,14 +127,9 @@
 </template>
 
 <script>
-import card from "@/components/card";
 
 export default {
   name: "softDev",
-
-  components: {
-    card
-  }
 }
 </script>
 
@@ -220,8 +215,6 @@ export default {
   color: #D5D9E1;
   opacity: 0;
   transition: all 0.7s;
-
-
 }
 
 .card:hover .service-info {
@@ -229,7 +222,6 @@ export default {
   transition: all 0.7s;
   transition-delay: 0.2s;
   transform: translateY(-86px);
-
 }
 
 .order {
@@ -271,8 +263,6 @@ export default {
 .card:hover .number {
   color: #FF5F1F;
   transition: 0.7s;
-
-
 }
 
 .ellipse {

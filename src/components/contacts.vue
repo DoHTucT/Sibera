@@ -1,6 +1,6 @@
 <template>
   <div class="background">
-    <div class="h1" id="link-contacts">Контакты <img class="arrow" src="../assets/arrowGreen.svg">
+    <div class="h1" id="link-contacts" ref="target">Контакты <img class="contact-arrow" src="../assets/arrowGreen.svg">
     </div>
     <div class="contact">
       <img src="../../src/assets/tel.svg">
@@ -25,14 +25,35 @@
     </div>
     <div class="footer">
       <div class="content">СИБЕРА 2023 © Все права защищены</div>
-
     </div>
+    <img class="arrow" :class="{isHidden: targetIsVisible}" ref="arrow" src="@/assets/arrow_down.svg">
+
   </div>
 </template>
 
 <script>
+import {ref} from "vue";
+import {useIntersectionObserver} from "@vueuse/core";
+
 export default {
-  name: "contacts"
+  name: "contacts",
+
+  setup() {
+    const target = ref(null)
+    const targetIsVisible = ref(false)
+
+    const {stop} = useIntersectionObserver(
+        target,
+        ([{isIntersecting}], observerElement) => {
+          targetIsVisible.value = isIntersecting
+        },
+    )
+
+    return {
+      target,
+      targetIsVisible,
+    }
+  }
 }
 </script>
 
@@ -49,20 +70,19 @@ export default {
   margin-bottom: 92px;
 }
 
-.arrow {
+.contact-arrow {
   width: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
   height: calc(24px + (48 - 24) * ((100vw - 500px) / (1920 - 500)));
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: space-between;
   width: calc(325px + (650 - 325) * ((100vw - 500px) / (1920 - 500)));
   margin-bottom: 60px;
-
 }
 
-.wrapper{
+.wrapper {
   width: calc(210px + (420 - 210) * ((100vw - 500px) / (1920 - 500)));
   height: 80px;
 }
@@ -85,15 +105,8 @@ export default {
   color: #D5D9E1;
 }
 
-.background{
-  background-image: url(../../src/assets/contact_map_new.webp)
-  /*position: absolute;*/
-  /*width: 1920px;*/
-  /*height: 1008px;*/
-  /*left: -100px;*/
-  /*top: 4400px;*/
-  /*opacity: 0.7;*/
-  /*z-index: -1;*/
+.background {
+  background-image: url(@/assets/contact_map.webp)
 }
 
 .footer {
@@ -106,7 +119,7 @@ export default {
   border-top: 1px solid #2E373B;
 }
 
-.content{
+.content {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -115,4 +128,19 @@ export default {
   color: #646A75
 }
 
+.arrow {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transition: 0.5s;
+}
+
+.isHidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+}
 </style>

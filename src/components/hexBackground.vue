@@ -276,7 +276,6 @@ export default {
 
 <style scoped>
 .main {
-  /*width: 1930px;*/
   display: grid;
   --s: 100px; /* size  */
   --m: 1px; /* margin */
@@ -319,7 +318,7 @@ export default {
 }
 
 @keyframes hex-hover {
-  to{
+  to {
     background: rgba(255, 95, 31, 0.3);
     transition: 1s;
   }

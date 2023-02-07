@@ -86,7 +86,6 @@ export default {
   width: calc(330px + (660 - 330) * ((100vw - 500px) / (1920 - 500)));
   height: calc(80px + (160 - 80) * ((100vw - 500px) / (1920 - 500)));
   margin-top: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));
-
   margin-bottom: calc(50px + (100 - 50) * ((100vw - 500px) / (1920 - 500)));
 }
 
@@ -129,7 +128,6 @@ export default {
   line-height: 150%;
   color: #D5D9E1;
   width: calc(250px + (500 - 250) * ((100vw - 500px) / (1920 - 500)));
-  /*margin-left: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));*/
   transition: 1s;
 }
 
@@ -157,8 +155,6 @@ export default {
   color: #D5D9E1;
   opacity: 0;
   transition: all 0.7s;
-
-
 }
 
 .card:hover .service-info {
@@ -201,7 +197,6 @@ export default {
   align-items: bottom;
   margin-top: calc(90px + (110 - 90) * ((100vw - 500px) / (1920 - 500)));;
   transition: 0.7s;
-
 }
 
 
@@ -219,6 +214,5 @@ export default {
   opacity: 0.12;
   filter: blur(150px);
   z-index: -1;
-  /*transform: translateX(200px);*/
 }
 </style>
