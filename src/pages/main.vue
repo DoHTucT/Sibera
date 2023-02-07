@@ -6,6 +6,7 @@
       <softDev/>
       <logistic/>
       <contacts/>
+      <foo_ter/>
     </div>
   </div>
 </template>
@@ -16,6 +17,7 @@ import logoScreen from "@/components/logoScreen";
 import softDev from "@/components/softDev";
 import logistic from "@/components/logistic";
 import contacts from "@/components/contacts";
+import foo_ter from "@/components/foo_ter";
 
 
 export default {
@@ -26,6 +28,7 @@ export default {
     softDev,
     logistic,
     contacts,
+    foo_ter,
   },
 
 }
