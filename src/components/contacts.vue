@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <img class="arrow"  :class="{isHidden: targetIsVisible, isHidden: scrolling}" ref="arrow" src="@/assets/arrow_down.svg">
+    <img class="arrow"  :class="{observer: targetIsVisible, scrollHidden: scrolling}" ref="arrow" src="@/assets/arrow_down.svg">
 
   </div>
 </template>
@@ -49,7 +49,7 @@ export default {
       window.clearTimeout(isScrolling);
       isScrolling = setTimeout(() => {
         this.scrolling = false
-      }, 400);
+      }, 200);
     }, false);
   },
 
@@ -132,12 +132,18 @@ export default {
   right: 0;
   margin-right: auto;
   margin-left: auto;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
-.isHidden {
+.observer {
   opacity: 0;
   transform: translateY(50px);
-  transition: 0.5s;
+  transition: 0.3s;
+}
+
+.scrollHidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.3s;
 }
 </style>
