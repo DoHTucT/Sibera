@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <img class="arrow" :class="{isHidden: targetIsVisible}" ref="arrow" src="@/assets/arrow_down.svg">
+    <img class="arrow"  :class="{isHidden: targetIsVisible, isHidden: scrolling}" ref="arrow" src="@/assets/arrow_down.svg">
 
   </div>
 </template>
@@ -35,6 +35,24 @@ import {useIntersectionObserver} from "@vueuse/core";
 
 export default {
   name: "contacts",
+
+  data(){
+    return{
+      scrolling: false
+    }
+  },
+
+  created: function() {
+    let isScrolling;
+    window.addEventListener('scroll', () => {
+      this.scrolling = true
+      window.clearTimeout(isScrolling);
+      isScrolling = setTimeout(() => {
+        this.scrolling = false
+      }, 400);
+    }, false);
+  },
+
 
   setup() {
     const target = ref(null)
