@@ -1,246 +1,246 @@
 <template>
   <div class="main">
     <div class="container">
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
-      <div class="hex"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
+      <div class="hex" @mouseover="randomColor"></div>
 
     </div>
   </div>
@@ -250,25 +250,19 @@
 export default {
   name: "hexBackground",
 
-//   data() {
-//     return {
-//       randomHex: null,
-//       hex: null
-//     }
-//   },
-//
-//   methods: {
-//     getHex() {
-//       let hex = [this.$refs.hex];
-//       console.log(hex)
-//     },
-//
-//     randomizer() {
-// let  randomHex = Math.floor(Math.random() * this.hex.length);
-// this.randomHex = this.hex[randomHex]
-//       console.log(randomHex)
-//     }
-//   }
+  data() {
+    return {
+      hexColors: ['#1F51FF', '#0FFF50', '#FF5F1F'],
+      hexColor: ''
+    }
+  },
+
+  methods: {
+    randomColor() {
+      this.hexColor = this.hexColors[Math.floor(Math.random() * this.hexColors.length)];
+    }
+  },
+
 }
 
 
@@ -314,12 +308,12 @@ export default {
   transition: 0.05s;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
-  animation-direction: reverse;
 }
 
 @keyframes hex-hover {
   to {
-    background: rgba(255, 95, 31, 0.3);
+    background: v-bind(hexColor);
+    opacity: 0.3;
     transition: 1s;
   }
 }
