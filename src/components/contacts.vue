@@ -13,7 +13,7 @@
       <img src="../../src/assets/mail.svg">
       <div class="wrapper">
         <div class="description">Email</div>
-        <div class="info">инфо@сибера.рус</div>
+        <a class="info" href="mailto:xn--h1akdx@xn--80abmk6bc.xn--p1acf">инфо@сибера.рус</a>
       </div>
     </div>
     <div class="contact">
@@ -119,6 +119,10 @@ export default {
   font-size: calc(18px + (36 - 18) * ((100vw - 500px) / (1920 - 500)));
   line-height: 150%;
   color: #D5D9E1;
+}
+
+a{
+  text-decoration: none;
 }
 
 .background {
