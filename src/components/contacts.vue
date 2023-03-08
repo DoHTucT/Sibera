@@ -1,7 +1,9 @@
 <template>
-  <div class="background">
-    <div class="h1" id="link-contacts" ref="target">Контакты <img class="contact-arrow" src="../assets/arrowGreen.svg">
+  <img class="map" src="@/assets/contact_map.webp">
+
+  <div class="h1" id="link-contacts" ref="target">Контакты <img class="contact-arrow" src="../assets/arrowGreen.svg">
     </div>
+
     <div class="contact">
       <img src="../../src/assets/tel.svg">
       <div class="wrapper">
@@ -22,7 +24,6 @@
         <div class="description">Адрес:</div>
         <div class="info">г. Томск, Некрасова 45</div>
       </div>
-    </div>
 
     <img class="arrow"  :class="{observer: targetIsVisible, scrollHidden: scrolling}" ref="arrow" src="@/assets/arrow_down.svg">
 
@@ -125,8 +126,10 @@ a{
   text-decoration: none;
 }
 
-.background {
-  background-image: url(@/assets/contact_map.webp)
+.map {
+  position: absolute;
+  width: calc(960px + (1920 - 960) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(504px + (1008 - 504) * ((100vw - 500px) / (1920 - 500)));
 }
 
 .arrow {
