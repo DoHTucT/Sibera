@@ -5,17 +5,19 @@
       <div class="logo-text">Вовлечённость и результат</div>
     </div>
   </div>
-  <hexBackground class="background"/>
+  <hexRandom class="background"/>
 </template>
 
 <script>
 import hexBackground from "@/components/hexBackground";
+import hexRandom from "@/components/hexRandom";
 
 export default {
   name: "logoScreen",
 
   components: {
-    hexBackground
+    hexBackground,
+    hexRandom
   }
 }
 </script>
