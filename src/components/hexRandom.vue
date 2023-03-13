@@ -33,7 +33,7 @@ export default {
 
 
   mounted() {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 5; i++) {
       setTimeout(() => {
         const indices = []
         while (indices.length < 30) {
@@ -49,8 +49,8 @@ export default {
           indices.forEach(index => {
             this.hexOpacity.splice(index, 1, '0.03')
           })
-        }, (i + 1) * 1000) // add delay here
-      }, i * 1000)
+        }, (i + 1) * 500) // add delay here
+      }, i * 500)
     }
   }
 }
