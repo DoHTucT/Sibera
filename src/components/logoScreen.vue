@@ -5,7 +5,7 @@
       <div class="logo-text">Вовлечённость и результат</div>
     </div>
   </div>
-  <hexRandom class="background"/>
+  <hexBackground class="background"/>
 </template>
 
 <script>
