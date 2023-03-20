@@ -32,6 +32,16 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));
+  animation-name: hide-logo;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes hide-logo {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .logo {
