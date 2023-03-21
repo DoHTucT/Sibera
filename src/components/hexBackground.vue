@@ -21,7 +21,8 @@ export default {
       hexes: Array(120).fill(null),
       hexColors: ['#1F51FF', '#0FFF50', '#FF5F1F'],
       hexColor: Array(120).fill('#FF5F1F'),
-      hexOpacity: Array(120).fill('0.03')
+      hexOpacity: Array(120).fill('0.03'),
+      allowedToHover: false // флаг состояния
     }
   },
 
@@ -31,12 +32,18 @@ export default {
     },
 
     randomColorHover(hex) {
+      if (!this.allowedToHover) return; // проверка флага состояния
       this.hexColor = this.hexColors[Math.floor(Math.random() * this.hexColors.length)];
-    }
+    },
+
   },
 
   mounted() {
-    for (let i = 0; i < 5; i++) {
+    setTimeout(() => {
+      this.allowedToHover = true; // установка флага состояния через 3 секунды
+    }, 3000);
+
+    for (let i = 0; i < 3; i++) {
       setTimeout(() => {
         const indices = []
         while (indices.length < 20) {
@@ -46,12 +53,12 @@ export default {
           }
         }
         indices.forEach(index => {
-          this.hexOpacity.splice(index, 1, '0.5')
+          this.hexOpacity.splice(index, 1, '0.25')
           this.randomColor(index);
         })
         setTimeout(() => {
           indices.forEach(index => {
-            this.hexOpacity.splice(index, 1, '0.03')
+            this.hexOpacity.splice(index, 1, '0.05')
             this.hexColor.splice(index, 1, '#FF5F1F');
           })
         }, (i + 1) * 500) // add delay here
@@ -60,6 +67,7 @@ export default {
   }
 }
 </script>
+
 
 <style scoped>
 .main {
@@ -81,7 +89,7 @@ export default {
   font-size: initial;
   clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
   background: rgba(255, 95, 31);
-  opacity: 0.03;
+  opacity: 0.05;
   margin-bottom: calc(var(--m) - var(--s) * 0.2885);
   transition: 2s;
 }
